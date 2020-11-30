@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PostNoBillsJaffna-Bold';
+    src: url('./fonts/post-no-bills-jaffna-cufonfonts/PostNoBillsJaffna-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'PostNoBillsJaffna-Regular';
+    src: url('./fonts/post-no-bills-jaffna-cufonfonts/PostNoBillsJaffna-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
