@@ -600,25 +600,28 @@ footer {
             justify-content: space-around;
         }
     }
-}
 
-.our-brands {
-    height: 500px;
-
-    & .wrapper {
-        width: 664px !important;
+    .our-brands {
+        height: 500px;
+    
+        & .wrapper {
+            width: 664px !important;
+        }
     }
-}
-.brands-block {
-    flex-wrap: wrap;
+    .brands-block {
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        height: 766px;
+    }
+    
+    .footer-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
 }
 
-footer {
-    height: 766px;
-}
-
-.footer-block {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
