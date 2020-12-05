@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    width: 1440px;
+    height: 840px;
+    margin: 0 auto;
+    display: flex;
+
+    & .wrapper {
+        width: 1082px;
+        margin: 0 auto;
+    }
+
+    & .navigation {
+        position: fixed;
+        width: 1082px;
+        display: flex;
+        padding: 27px 0;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Larsseit', sans-serif;
+        z-index: 5;
+
+        &--logo {
+            font-size: 24px;
+            line-height: 26.72px;
+            color: #62D0DF;
+            text-decoration: none;
+        }
+
+        &--list {
+            display: flex;
+            list-style-type: none;
+        }
+
+        &--item {
+            margin: 0 10px;
+        }
+
+        &--link {
+            text-decoration: none;
+            padding: 10px 5px;
+            font-size: 14px;
+            color: #22356F;
+            transition: all .1 s ease;
+
+            &:hover {
+                border-bottom: 2px solid black;
+            }
+        }
+
+
+        &--btn {
+            padding: 20px 30px;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 50px;
+            background-color: #62D0DF;
+            color: #FFF;
+            transition: all .2s ease;
+
+            &:hover {
+                background-color: #62D0B6;
+            }
+        }
+    }
+
+    &--block {
+        position: absolute;
+        width: 100%;
+        display: flex;
+    }
+
+    &--left {
+        width: 1117px;
+        height: 840px;
+        position: relative;
+        background-color: #F4F9E2;
+        z-index: 1;
+    }
+
+    &--content {
+        position: absolute;
+        width: 480px;
+        left: 179px;
+        bottom: 79px;
+        font-family: 'Larsseit', sans-serif;
+
+        & h1 {
+            font-size: 48px;
+            color: #22356F;
+            line-height: 53px;
+            letter-spacing: -0.035em;
+        }
+
+        & p {
+            margin-bottom: 63px;
+            font-size: 24px;
+            line-height: 42px;
+            color: #22356F;
+        }
+    }
+
+    &--right {
+        width: 323px;
+        height: 840px;
+        position: relative;
+
+        & img {
+            position: absolute;
+            left: -420px;
+            z-index: 3;
+        }
+    }
+
+    &--btn {
+        margin-top: 63px;
+        padding: 10px 30px;
+        font-size: 16px;
+        line-height: 23px;
+        text-decoration: none;
+        color: #FAB63E;
+        transition: all .2s ease;
+
+        &:hover {
+            color: #FFF;
+            background-color: #FAB63E;
+        }
+    }
+
+}
+
+main {
+    margin: 0 auto;
+}
+
+.why-thrive {
+    width: 1440px;
+    height: 607px;
+    display: flex;
+    margin: 0 auto;
+
+    &--content {
+        width: 915px;
+        height: 607px;
+        background-color: #62D0DF;
+        font-family: 'Larsseit', sans-serif;
+
+        & h2 {
+            margin-top: 151px;
+            margin-left: 178px;
+            font-size: 36px;
+            line-height: 27.42px;
+            letter-spacing: -0.6%;
+            color: #FFFFFF;
+        }
+
+        & p {
+            width: 555px;
+            margin-top: 75px;
+            margin-left: 178px;
+            font-size: 24px;
+            line-height: 35px;
+            text-align: justify;
+            color: #FFFFFF;
+        }
+    }
+
+    &--bg {
+        width: 525px;
+        height: 607px;
+        background-image: url('./img/christopher-campbell-40367.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.about-us {
+    width: 1440px;
+    height: 481px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Larsseit', sans-serif;
+
+    &--title {
+        position: absolute;
+        top: 150px;
+        left: 106px;
+        color: #22356F;
+    }
+
+    & p {
+        width: 592px;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.005em;
+        color: #22356F;
+    }
+
+    &--subtitle {
+        position: absolute;
+        bottom: 24px;
+        color: rgba(34, 53, 111, 0.5);
+    }
+}
+
+.exercise {
+    width: 1440px;
+    height: 360px;
+    margin: 0 auto;
+    display: flex;
+
+    &--block {
+        width: 25%;
+        height: 360px;
+        font-family: 'Larsseit', sans-serif;
+        color: #FFF;
+
+        &-pink {
+            background-color: #FFE2DE;
+        }
+
+        &-green {
+            background-color: #C4E769;
+        }
+
+        &-lightblue {
+            background-color: #62D0DF;
+        }
+
+        &-blue {
+            background-color: #0052C1;
+        }
+
+        & span {
+            width: 255px;
+            height: 3px;
+            display: block;
+            margin-top: 72px;
+            margin-left: 52px;
+            background-color: #FFF;
+        }
+
+        & h2 {
+            margin-left: 52px;
+            font-size: 32px;
+        }
+
+    }
+
+}
+
+.health {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.healthBlock {
+    width: 480px;
+    height: 480px;
+    font-family: 'Larsseit', sans-serif;
+    color: #FFF;
+
+    & span {
+        display: block;
+        width: 340px;
+        height: 1px;
+        margin-top: 96px;
+        margin-left: 70px;
+        background-color: #FFF;
+    }
+
+    & h2 {
+        margin-left: 70px;
+        font-size: 32px;
+    }
+
+    &-blue {
+        background-color: #22356F;
+    }
+
+    &-lightBlue {
+        background-color: #0052C1;
+    }
+
+    &-img {
+        background-image: url('./img/joanna-kosinska-340748.png');
+    }
+
+    &-aqua {
+        background-color: #62D0DF;
+    }
+
+    &-grey {
+        background-color: #DEE1FF;
+    }
+
+    &-purple {
+        background-color: #8F00FF;
+    }
+
+}
+
+.plans {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Larsseit', sans-serif;
+}
+
+.plan {
+    width: 480px;
+    height: 240px;
+
+    & h3 {
+        font-size: 28px;
+        line-height: 32.81px;
+        letter-spacing: -3%;
+        margin-top: 55px;
+        margin-left: 105px;
+    }
+
+    & p {
+        width: 298px;
+        margin-left: 105px;
+        font-size: 16px;
+        color: rgba(34, 53, 111, 0.5);
+    }
+}
+
+.adult {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Larsseit', sans-serif;
+    color: #22356F;
+
+    &--bg {
+        width: 480px;
+        height: 800px;
+        background-image: url('./img/linkedin-sales-navigator-402831.png');
+    }
+
+    &--content {
+        margin-left: 106px;
+    }
+
+    &--title {
+        margin-top: 101px;
+        display: block;
+    }
+
+    & h3 {
+        width: 676px;
+        font-size: 36px;
+        letter-spacing: -0.01em;
+        margin-top: 225px;
+    }
+
+    &--subtitle {
+        display: block;
+        margin-top: 152px;
+        color: #FAB63E;
+    }
+
+}
+
+.contacts {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Larsseit', sans-serif;
+
+    &--content {
+        width: 960px;
+        height: 800px;
+        background-color: #22356F;
+    }
+
+    &--title {
+        display: block;
+        margin-top: 103px;
+        margin-left: 180px;
+        color: #FFF;
+    }
+
+    & h2 {
+        margin-top: 230px;
+        margin-left: 180px;
+        font-size: 64px;
+        line-height: 93.75px;
+        letter-spacing: -1%;
+        color: #FFF;
+    }
+
+    & p {
+        width: 579px;
+        margin-top: 75px;
+        margin-left: 180px;
+        font-size: 36px;
+        line-height: 52.73px;
+        letter-spacing: -0.5%;
+        color: #FFF;
+    }
+
+    &--subtitle {
+        display: block;
+        margin-top: 10px;
+        margin-left: 180px;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        color: #62D0DF;
+    }
+
+    &--bg {
+        width: 480px;
+        height: 800px;
+        background-image: url('./img/charles-etoroma-390119.png');
+    }
+}
